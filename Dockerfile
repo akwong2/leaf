@@ -1,3 +1,3 @@
 FROM jenkins/jnlp-slave:alpine
-RUN apt-get -y install nodejs
+ENV NODE_VERSION 8.11.4-r0
 RUN npm install
